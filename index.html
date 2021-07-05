@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="./img/faviconqotd.png">
+    <title>QOTD | TE</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/categoryTable.css">
+</head>
+<body>
+    <navbar>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href=""><img src="./img/logo.png" alt="Home"></a>
+            </li>
+            <li class="nav-item">
+                <a href="./register/register.html">SIGN UP</a>
+                <a href="./register/login.html">LOGIN</a>
+            </li>
+            <li class="nav-item hide">
+                <a href="#slide" id="aBody">
+                    <h2 id="sad">&#128554</h2>
+                    <h2 class="hide" id="happy">&#128513</h2>
+                </a>
+            </li>
+        </ul>
+    </navbar>
+
+    <section id="showcase">
+        
+        <h2 style="text-align: center; margin-bottom: 10%; border-radius: 10px; width: 80vw;">Signing up has never been easier!</h2>
+
+        <div class="info-btn">
+            <a href="./register/register.html" class="btn btn--promo">Join @s0o0ryy's QOTD</a>
+        </div>
+
+        <div class="information-l">
+            
+
+            <div class="info" >
+                
+                    <h4>1. Pick your category</h4>
+
+                    <table>
+                        <tr>
+                            <td id="heartbreak">Heartbreak &#128148</td>
+                            <td id="depression">Depression & Anxiety &#128554</td>
+                        </tr>
+                        <tr>
+                            <td id="inspiration">Inspiration &#129351</td>
+                            <td id="selflove">Self-love &#128524</td>
+                        </tr>
+                    </table>
+                    
+                
+                
+
+
+                <h4>2. Select your preferred time of daily the text</h4>
+
+                <h4>Free bonus: gain access playlist and discord community <i class="fa fa-spotify"></i></h4>
+                
+            </div>
+<!-- 
+            <div class="info info-left">
+                <h4>Pick your category</h4>
+            </div>
+
+            <div class="info info-right">
+
+                <h4>Select your preferred time of daily the text</h4>
+                
+            </div>
+
+            <div class="info info-left">
+                <h4>Enjoy free access to our tailor-made playlist and discord community</h4>
+            </div>  -->
+            
+            
+            
+
+        </div>
+
+        
+
+        <!-- <div class="block">
+            <div class="b-1">
+                <h3>We want to hear from you!</h3>
+                <p>We are always looking for ways to improve. Feel free to send us anything you want!</p>
+            </div>
+        </div> -->
+        
+    </section>
+
+    <section id="slide">
+        <div class="slider">
+
+
+            <div class="slides">
+
+
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img class="ls" src="./img/landscapek/1.png" alt="">
+                    <img class="pt" src="./img/portrait/1.png" alt="">
+                </div>
+                <div class="slide second">
+                    <img class="ls" src="./img/landscapek/2.png" alt="">
+                    <img class="pt" src="./img/portrait/2.png" alt="">
+                </div>
+                <div class="slide third">
+                    <img class="ls" src="./img/landscapek/3.png" alt="">
+                    <img class="pt" src="./img/portrait/3.png" alt="">
+                </div>
+                <div class="slide fourth">
+                    <img class="ls" src="./img/landscapek/4.png" alt="">
+                    <img class="pt" src="./img/portrait/4.png" alt="">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn1"></div>
+                </div>
+
+
+            </div>
+            
+
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <footer>
+
+        <div class="social">
+            <h6>Follow us</h6>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-snapchat-ghost"></i></a>
+        </div>
+
+        <p>@s0o0ryy Quote of the Day &copy; All rights reserved</p>
+        
+    </footer>
+
+
+    <script src="./js/freeSmile.js"></script>
+    <script src="./js/autoSlide.js"></script>
+
+    <script src="./js/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800
+        });
+    </script>
+</body>
+</html>
